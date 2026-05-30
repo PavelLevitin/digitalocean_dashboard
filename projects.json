@@ -1,5 +1,5 @@
 [
-  {"id": 1, "name": "Site A", "url": "http://pavellevitin.co.il:4009", "enabled": true},
-  {"id": 2, "name": "Site B", "url": "http://pavellevitin.co.il:3000", "enabled": true},
-  {"id": 3, "name": "Site C", "url": "http://pavellevitin.co.il:8080", "enabled": true}
+  {"id": 1, "name": "HBS Studio", "url": "https://pavellevitin.co.il/hbs", "enabled": true},
+  {"id": 2, "name": "payRase", "url": "https://pavellevitin.co.il/paycheck", "enabled": true},
+  {"id": 3, "name": "ternerClock", "url": "https://pavellevitin.co.il/ternerclock", "enabled": true}
 ]
