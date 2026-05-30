@@ -1,0 +1,5 @@
+[
+  {"id": 1, "name": "Site A", "url": "http://pavellevitin.co.il:4009", "enabled": true},
+  {"id": 2, "name": "Site B", "url": "http://pavellevitin.co.il:3000", "enabled": true},
+  {"id": 3, "name": "Site C", "url": "http://pavellevitin.co.il:8080", "enabled": true}
+]
