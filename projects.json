@@ -1,5 +1,26 @@
 [
-  {"id": 1, "name": "HBS Studio", "url": "https://pavellevitin.co.il/hbs", "enabled": true},
-  {"id": 2, "name": "payRase", "url": "https://pavellevitin.co.il/paycheck", "enabled": true},
-  {"id": 3, "name": "ternerClock", "url": "https://pavellevitin.co.il/ternerclock", "enabled": true}
+  {
+    "id": 1,
+    "name": "HBS Studio",
+    "url": "https://pavellevitin.co.il/hbs",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "name": "payRase",
+    "url": "https://pavellevitin.co.il/paycheck",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "name": "ternerClock",
+    "url": "https://pavellevitin.co.il/ternerclock",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "name": "Fields",
+    "url": "https://pavellevitin.co.il/fields",
+    "enabled": true
+  }
 ]
