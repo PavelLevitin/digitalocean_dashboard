@@ -13,7 +13,7 @@ async function getKey(secret: string) {
 function toBase64Url(bytes: ArrayBuffer | Uint8Array) {
   const arr = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes)
   let str = ''
-  for (const b of arr) str += String.fromCharCode(b)
+  for (let i = 0; i < arr.length; i++) str += String.fromCharCode(arr[i])
   return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
 }
 
@@ -34,7 +34,7 @@ export async function createSessionToken(username: string, secret: string): Prom
   return `${payloadB64}.${toBase64Url(sig)}`
 }
 
-export async function verifySessionToken(token: string | undefined, secret: string): Promise<boolean> {
+export async function verifySessionToken(token: string | undefined, secret: string | undefined): Promise<boolean> {
   if (!token || !secret) return false
   const [payloadB64, sigB64] = token.split('.')
   if (!payloadB64 || !sigB64) return false
