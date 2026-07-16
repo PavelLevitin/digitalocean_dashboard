@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /fields
+Disallow: /ternerclock
+
+Sitemap: https://pavellevitin.co.il/sitemap.xml
